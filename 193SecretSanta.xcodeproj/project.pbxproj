@@ -3,33 +3,154 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		30A379392FF6A0F400F171B4 /* CustomCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378DA2FF6A0F400F171B4 /* CustomCells.swift */; };
+		30A3793A2FF6A0F400F171B4 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378DB2FF6A0F400F171B4 /* DesignSystem.swift */; };
+		30A3793B2FF6A0F400F171B4 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378DC2FF6A0F400F171B4 /* EmptyStateView.swift */; };
+		30A3793C2FF6A0F400F171B4 /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378DD2FF6A0F400F171B4 /* GradientBackground.swift */; };
+		30A3793D2FF6A0F400F171B4 /* RevealExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378DE2FF6A0F400F171B4 /* RevealExperienceView.swift */; };
+		30A3793E2FF6A0F400F171B4 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378DF2FF6A0F400F171B4 /* ShareSheet.swift */; };
+		30A3793F2FF6A0F400F171B4 /* StatusBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378E02FF6A0F400F171B4 /* StatusBadgeView.swift */; };
+		30A379402FF6A0F400F171B4 /* VisualEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378E12FF6A0F400F171B4 /* VisualEffects.swift */; };
+		30A379412FF6A0F400F171B4 /* Color+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378E32FF6A0F400F171B4 /* Color+Theme.swift */; };
+		30A379422FF6A0F400F171B4 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378E42FF6A0F400F171B4 /* Formatters.swift */; };
+		30A379432FF6A0F400F171B4 /* View+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378E52FF6A0F400F171B4 /* View+Navigation.swift */; };
+		30A379442FF6A0F400F171B4 /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378E72FF6A0F400F171B4 /* AppLinks.swift */; };
+		30A379452FF6A0F400F171B4 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378E92FF6A0F400F171B4 /* AppCoordinator.swift */; };
+		30A379462FF6A0F400F171B4 /* AnonymousHint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378EB2FF6A0F400F171B4 /* AnonymousHint.swift */; };
+		30A379472FF6A0F400F171B4 /* AssignmentRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378EC2FF6A0F400F171B4 /* AssignmentRules.swift */; };
+		30A379482FF6A0F400F171B4 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378ED2FF6A0F400F171B4 /* Event.swift */; };
+		30A379492FF6A0F400F171B4 /* EventStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378EE2FF6A0F400F171B4 /* EventStatus.swift */; };
+		30A3794A2FF6A0F400F171B4 /* EventTransferPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378EF2FF6A0F400F171B4 /* EventTransferPayload.swift */; };
+		30A3794B2FF6A0F400F171B4 /* ExchangePreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378F02FF6A0F400F171B4 /* ExchangePreset.swift */; };
+		30A3794C2FF6A0F400F171B4 /* GiftAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378F12FF6A0F400F171B4 /* GiftAssignment.swift */; };
+		30A3794D2FF6A0F400F171B4 /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378F22FF6A0F400F171B4 /* OnboardingPage.swift */; };
+		30A3794E2FF6A0F400F171B4 /* Participant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378F32FF6A0F400F171B4 /* Participant.swift */; };
+		30A3794F2FF6A0F400F171B4 /* RevealSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378F42FF6A0F400F171B4 /* RevealSettings.swift */; };
+		30A379502FF6A0F400F171B4 /* WishItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378F52FF6A0F400F171B4 /* WishItem.swift */; };
+		30A379512FF6A0F400F171B4 /* ExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378F72FF6A0F400F171B4 /* ExportService.swift */; };
+		30A379522FF6A0F400F171B4 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378F82FF6A0F400F171B4 /* NotificationService.swift */; };
+		30A379532FF6A0F400F171B4 /* OnboardingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378F92FF6A0F400F171B4 /* OnboardingService.swift */; };
+		30A379542FF6A0F400F171B4 /* PairHistoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378FA2FF6A0F400F171B4 /* PairHistoryService.swift */; };
+		30A379552FF6A0F400F171B4 /* QRTransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378FB2FF6A0F400F171B4 /* QRTransferService.swift */; };
+		30A379562FF6A0F400F171B4 /* SecretSantaEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378FC2FF6A0F400F171B4 /* SecretSantaEngine.swift */; };
+		30A379572FF6A0F400F171B4 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A378FD2FF6A0F400F171B4 /* StorageService.swift */; };
+		30A379582FF6A0F400F171B4 /* AssignmentResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A379002FF6A0F400F171B4 /* AssignmentResultViewModel.swift */; };
+		30A379592FF6A0F400F171B4 /* EventDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A379012FF6A0F400F171B4 /* EventDetailViewModel.swift */; };
+		30A3795A2FF6A0F400F171B4 /* EventFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A379022FF6A0F400F171B4 /* EventFormViewModel.swift */; };
+		30A3795B2FF6A0F400F171B4 /* EventListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A379032FF6A0F400F171B4 /* EventListViewModel.swift */; };
+		30A3795C2FF6A0F400F171B4 /* EventRulesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A379042FF6A0F400F171B4 /* EventRulesViewModel.swift */; };
+		30A3795D2FF6A0F400F171B4 /* ExportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A379052FF6A0F400F171B4 /* ExportViewModel.swift */; };
+		30A3795E2FF6A0F400F171B4 /* HintsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A379062FF6A0F400F171B4 /* HintsViewModel.swift */; };
+		30A3795F2FF6A0F400F171B4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A379072FF6A0F400F171B4 /* HomeViewModel.swift */; };
+		30A379602FF6A0F400F171B4 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A379082FF6A0F400F171B4 /* OnboardingViewModel.swift */; };
+		30A379612FF6A0F400F171B4 /* ParticipantFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A379092FF6A0F400F171B4 /* ParticipantFormViewModel.swift */; };
+		30A379622FF6A0F400F171B4 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3790A2FF6A0F400F171B4 /* SettingsViewModel.swift */; };
+		30A379632FF6A0F400F171B4 /* WishListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3790B2FF6A0F400F171B4 /* WishListViewModel.swift */; };
+		30A379642FF6A0F400F171B4 /* AssignmentResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3790D2FF6A0F400F171B4 /* AssignmentResultView.swift */; };
+		30A379652FF6A0F400F171B4 /* AssignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3790F2FF6A0F400F171B4 /* AssignmentView.swift */; };
+		30A379662FF6A0F400F171B4 /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A379102FF6A0F400F171B4 /* EventDetailView.swift */; };
+		30A379672FF6A0F400F171B4 /* ParticipantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A379112FF6A0F400F171B4 /* ParticipantListView.swift */; };
+		30A379682FF6A0F400F171B4 /* EventFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A379132FF6A0F400F171B4 /* EventFormView.swift */; };
+		30A379692FF6A0F400F171B4 /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A379152FF6A0F400F171B4 /* EventListView.swift */; };
+		30A3796A2FF6A0F400F171B4 /* EventRulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A379172FF6A0F400F171B4 /* EventRulesView.swift */; };
+		30A3796B2FF6A0F400F171B4 /* ExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A379192FF6A0F400F171B4 /* ExportView.swift */; };
+		30A3796C2FF6A0F400F171B4 /* HintsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3791B2FF6A0F400F171B4 /* HintsView.swift */; };
+		30A3796D2FF6A0F400F171B4 /* HomeWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3791D2FF6A0F400F171B4 /* HomeWidgets.swift */; };
+		30A3796E2FF6A0F400F171B4 /* OrganizerDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3791E2FF6A0F400F171B4 /* OrganizerDashboardView.swift */; };
+		30A3796F2FF6A0F400F171B4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A379202FF6A0F400F171B4 /* HomeView.swift */; };
+		30A379702FF6A0F400F171B4 /* OnboardingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A379222FF6A0F400F171B4 /* OnboardingPageView.swift */; };
+		30A379712FF6A0F400F171B4 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A379242FF6A0F400F171B4 /* OnboardingView.swift */; };
+		30A379722FF6A0F400F171B4 /* ParticipantFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A379262FF6A0F400F171B4 /* ParticipantFormView.swift */; };
+		30A379732FF6A0F400F171B4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A379282FF6A0F400F171B4 /* SettingsView.swift */; };
+		30A379742FF6A0F400F171B4 /* WishListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3792A2FF6A0F400F171B4 /* WishListView.swift */; };
+		30A379752FF6A0F400F171B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3792E2FF6A0F400F171B4 /* AppDelegate.swift */; };
+		30A379762FF6A0F400F171B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A379302FF6A0F400F171B4 /* ContentView.swift */; };
+		30A379772FF6A0F400F171B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A379362FF6A0F400F171B4 /* SceneDelegate.swift */; };
+		30A379782FF6A0F400F171B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A379372FF6A0F400F171B4 /* ViewController.swift */; };
+		30A379792FF6A0F400F171B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A3792F2FF6A0F400F171B4 /* Assets.xcassets */; };
+		30A3797B2FF6A0F400F171B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A379332FF6A0F400F171B4 /* LaunchScreen.storyboard */; };
+		30A3797C2FF6A0F400F171B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A379352FF6A0F400F171B4 /* Main.storyboard */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		305963FA2FEF16280073B16B /* 193SecretSanta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 193SecretSanta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A378DA2FF6A0F400F171B4 /* CustomCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCells.swift; sourceTree = "<group>"; };
+		30A378DB2FF6A0F400F171B4 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		30A378DC2FF6A0F400F171B4 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		30A378DD2FF6A0F400F171B4 /* GradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
+		30A378DE2FF6A0F400F171B4 /* RevealExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevealExperienceView.swift; sourceTree = "<group>"; };
+		30A378DF2FF6A0F400F171B4 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		30A378E02FF6A0F400F171B4 /* StatusBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBadgeView.swift; sourceTree = "<group>"; };
+		30A378E12FF6A0F400F171B4 /* VisualEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffects.swift; sourceTree = "<group>"; };
+		30A378E32FF6A0F400F171B4 /* Color+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Theme.swift"; sourceTree = "<group>"; };
+		30A378E42FF6A0F400F171B4 /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+		30A378E52FF6A0F400F171B4 /* View+Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Navigation.swift"; sourceTree = "<group>"; };
+		30A378E72FF6A0F400F171B4 /* AppLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLinks.swift; sourceTree = "<group>"; };
+		30A378E92FF6A0F400F171B4 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		30A378EB2FF6A0F400F171B4 /* AnonymousHint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnonymousHint.swift; sourceTree = "<group>"; };
+		30A378EC2FF6A0F400F171B4 /* AssignmentRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentRules.swift; sourceTree = "<group>"; };
+		30A378ED2FF6A0F400F171B4 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		30A378EE2FF6A0F400F171B4 /* EventStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventStatus.swift; sourceTree = "<group>"; };
+		30A378EF2FF6A0F400F171B4 /* EventTransferPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTransferPayload.swift; sourceTree = "<group>"; };
+		30A378F02FF6A0F400F171B4 /* ExchangePreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangePreset.swift; sourceTree = "<group>"; };
+		30A378F12FF6A0F400F171B4 /* GiftAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftAssignment.swift; sourceTree = "<group>"; };
+		30A378F22FF6A0F400F171B4 /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
+		30A378F32FF6A0F400F171B4 /* Participant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Participant.swift; sourceTree = "<group>"; };
+		30A378F42FF6A0F400F171B4 /* RevealSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevealSettings.swift; sourceTree = "<group>"; };
+		30A378F52FF6A0F400F171B4 /* WishItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishItem.swift; sourceTree = "<group>"; };
+		30A378F72FF6A0F400F171B4 /* ExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportService.swift; sourceTree = "<group>"; };
+		30A378F82FF6A0F400F171B4 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		30A378F92FF6A0F400F171B4 /* OnboardingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingService.swift; sourceTree = "<group>"; };
+		30A378FA2FF6A0F400F171B4 /* PairHistoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairHistoryService.swift; sourceTree = "<group>"; };
+		30A378FB2FF6A0F400F171B4 /* QRTransferService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRTransferService.swift; sourceTree = "<group>"; };
+		30A378FC2FF6A0F400F171B4 /* SecretSantaEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretSantaEngine.swift; sourceTree = "<group>"; };
+		30A378FD2FF6A0F400F171B4 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		30A379002FF6A0F400F171B4 /* AssignmentResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentResultViewModel.swift; sourceTree = "<group>"; };
+		30A379012FF6A0F400F171B4 /* EventDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewModel.swift; sourceTree = "<group>"; };
+		30A379022FF6A0F400F171B4 /* EventFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFormViewModel.swift; sourceTree = "<group>"; };
+		30A379032FF6A0F400F171B4 /* EventListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewModel.swift; sourceTree = "<group>"; };
+		30A379042FF6A0F400F171B4 /* EventRulesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRulesViewModel.swift; sourceTree = "<group>"; };
+		30A379052FF6A0F400F171B4 /* ExportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportViewModel.swift; sourceTree = "<group>"; };
+		30A379062FF6A0F400F171B4 /* HintsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintsViewModel.swift; sourceTree = "<group>"; };
+		30A379072FF6A0F400F171B4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		30A379082FF6A0F400F171B4 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		30A379092FF6A0F400F171B4 /* ParticipantFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantFormViewModel.swift; sourceTree = "<group>"; };
+		30A3790A2FF6A0F400F171B4 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		30A3790B2FF6A0F400F171B4 /* WishListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListViewModel.swift; sourceTree = "<group>"; };
+		30A3790D2FF6A0F400F171B4 /* AssignmentResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentResultView.swift; sourceTree = "<group>"; };
+		30A3790F2FF6A0F400F171B4 /* AssignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentView.swift; sourceTree = "<group>"; };
+		30A379102FF6A0F400F171B4 /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
+		30A379112FF6A0F400F171B4 /* ParticipantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantListView.swift; sourceTree = "<group>"; };
+		30A379132FF6A0F400F171B4 /* EventFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFormView.swift; sourceTree = "<group>"; };
+		30A379152FF6A0F400F171B4 /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
+		30A379172FF6A0F400F171B4 /* EventRulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRulesView.swift; sourceTree = "<group>"; };
+		30A379192FF6A0F400F171B4 /* ExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportView.swift; sourceTree = "<group>"; };
+		30A3791B2FF6A0F400F171B4 /* HintsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintsView.swift; sourceTree = "<group>"; };
+		30A3791D2FF6A0F400F171B4 /* HomeWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWidgets.swift; sourceTree = "<group>"; };
+		30A3791E2FF6A0F400F171B4 /* OrganizerDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizerDashboardView.swift; sourceTree = "<group>"; };
+		30A379202FF6A0F400F171B4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		30A379222FF6A0F400F171B4 /* OnboardingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageView.swift; sourceTree = "<group>"; };
+		30A379242FF6A0F400F171B4 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		30A379262FF6A0F400F171B4 /* ParticipantFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantFormView.swift; sourceTree = "<group>"; };
+		30A379282FF6A0F400F171B4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		30A3792A2FF6A0F400F171B4 /* WishListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListView.swift; sourceTree = "<group>"; };
+		30A3792D2FF6A0F400F171B4 /* 193SecretSanta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 193SecretSanta.entitlements; sourceTree = "<group>"; };
+		30A3792E2FF6A0F400F171B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30A3792F2FF6A0F400F171B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30A379302FF6A0F400F171B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		30A379312FF6A0F400F171B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30A379322FF6A0F400F171B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30A379342FF6A0F400F171B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30A379362FF6A0F400F171B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		30A379372FF6A0F400F171B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		469FB4676FB75A75CCD7AD53 /* Pods_193SecretSanta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_193SecretSanta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5694A3EBF10852A1ED5119F /* Pods-193SecretSanta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-193SecretSanta.release.xcconfig"; path = "Target Support Files/Pods-193SecretSanta/Pods-193SecretSanta.release.xcconfig"; sourceTree = "<group>"; };
+		D931772EAA574691040CA5DD /* Pods-193SecretSanta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-193SecretSanta.debug.xcconfig"; path = "Target Support Files/Pods-193SecretSanta/Pods-193SecretSanta.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		3059640C2FEF16290073B16B /* Exceptions for "193SecretSanta" folder in "193SecretSanta" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 305963F92FEF16280073B16B /* 193SecretSanta */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		305963FC2FEF16280073B16B /* 193SecretSanta */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				3059640C2FEF16290073B16B /* Exceptions for "193SecretSanta" folder in "193SecretSanta" target */,
-			);
-			path = 193SecretSanta;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		305963F72FEF16280073B16B /* Frameworks */ = {
@@ -42,11 +163,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B8D8CBA301C51AB2A57C4B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				469FB4676FB75A75CCD7AD53 /* Pods_193SecretSanta.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		305963F12FEF16280073B16B = {
 			isa = PBXGroup;
 			children = (
-				305963FC2FEF16280073B16B /* 193SecretSanta */,
+				30A379382FF6A0F400F171B4 /* 193SecretSanta */,
 				305963FB2FEF16280073B16B /* Products */,
+				39D6A4D170CEEB5A4222D9EB /* Pods */,
+				0B8D8CBA301C51AB2A57C4B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +189,275 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		30A378E22FF6A0F400F171B4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				30A378DA2FF6A0F400F171B4 /* CustomCells.swift */,
+				30A378DB2FF6A0F400F171B4 /* DesignSystem.swift */,
+				30A378DC2FF6A0F400F171B4 /* EmptyStateView.swift */,
+				30A378DD2FF6A0F400F171B4 /* GradientBackground.swift */,
+				30A378DE2FF6A0F400F171B4 /* RevealExperienceView.swift */,
+				30A378DF2FF6A0F400F171B4 /* ShareSheet.swift */,
+				30A378E02FF6A0F400F171B4 /* StatusBadgeView.swift */,
+				30A378E12FF6A0F400F171B4 /* VisualEffects.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		30A378E62FF6A0F400F171B4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				30A378E32FF6A0F400F171B4 /* Color+Theme.swift */,
+				30A378E42FF6A0F400F171B4 /* Formatters.swift */,
+				30A378E52FF6A0F400F171B4 /* View+Navigation.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		30A378E82FF6A0F400F171B4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				30A378E22FF6A0F400F171B4 /* Components */,
+				30A378E62FF6A0F400F171B4 /* Extensions */,
+				30A378E72FF6A0F400F171B4 /* AppLinks.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		30A378EA2FF6A0F400F171B4 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				30A378E92FF6A0F400F171B4 /* AppCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		30A378F62FF6A0F400F171B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				30A378EB2FF6A0F400F171B4 /* AnonymousHint.swift */,
+				30A378EC2FF6A0F400F171B4 /* AssignmentRules.swift */,
+				30A378ED2FF6A0F400F171B4 /* Event.swift */,
+				30A378EE2FF6A0F400F171B4 /* EventStatus.swift */,
+				30A378EF2FF6A0F400F171B4 /* EventTransferPayload.swift */,
+				30A378F02FF6A0F400F171B4 /* ExchangePreset.swift */,
+				30A378F12FF6A0F400F171B4 /* GiftAssignment.swift */,
+				30A378F22FF6A0F400F171B4 /* OnboardingPage.swift */,
+				30A378F32FF6A0F400F171B4 /* Participant.swift */,
+				30A378F42FF6A0F400F171B4 /* RevealSettings.swift */,
+				30A378F52FF6A0F400F171B4 /* WishItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		30A378FE2FF6A0F400F171B4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				30A378F72FF6A0F400F171B4 /* ExportService.swift */,
+				30A378F82FF6A0F400F171B4 /* NotificationService.swift */,
+				30A378F92FF6A0F400F171B4 /* OnboardingService.swift */,
+				30A378FA2FF6A0F400F171B4 /* PairHistoryService.swift */,
+				30A378FB2FF6A0F400F171B4 /* QRTransferService.swift */,
+				30A378FC2FF6A0F400F171B4 /* SecretSantaEngine.swift */,
+				30A378FD2FF6A0F400F171B4 /* StorageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		30A378FF2FF6A0F400F171B4 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		30A3790C2FF6A0F400F171B4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				30A379002FF6A0F400F171B4 /* AssignmentResultViewModel.swift */,
+				30A379012FF6A0F400F171B4 /* EventDetailViewModel.swift */,
+				30A379022FF6A0F400F171B4 /* EventFormViewModel.swift */,
+				30A379032FF6A0F400F171B4 /* EventListViewModel.swift */,
+				30A379042FF6A0F400F171B4 /* EventRulesViewModel.swift */,
+				30A379052FF6A0F400F171B4 /* ExportViewModel.swift */,
+				30A379062FF6A0F400F171B4 /* HintsViewModel.swift */,
+				30A379072FF6A0F400F171B4 /* HomeViewModel.swift */,
+				30A379082FF6A0F400F171B4 /* OnboardingViewModel.swift */,
+				30A379092FF6A0F400F171B4 /* ParticipantFormViewModel.swift */,
+				30A3790A2FF6A0F400F171B4 /* SettingsViewModel.swift */,
+				30A3790B2FF6A0F400F171B4 /* WishListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		30A3790E2FF6A0F400F171B4 /* AssignmentResult */ = {
+			isa = PBXGroup;
+			children = (
+				30A3790D2FF6A0F400F171B4 /* AssignmentResultView.swift */,
+			);
+			path = AssignmentResult;
+			sourceTree = "<group>";
+		};
+		30A379122FF6A0F400F171B4 /* EventDetail */ = {
+			isa = PBXGroup;
+			children = (
+				30A3790F2FF6A0F400F171B4 /* AssignmentView.swift */,
+				30A379102FF6A0F400F171B4 /* EventDetailView.swift */,
+				30A379112FF6A0F400F171B4 /* ParticipantListView.swift */,
+			);
+			path = EventDetail;
+			sourceTree = "<group>";
+		};
+		30A379142FF6A0F400F171B4 /* EventForm */ = {
+			isa = PBXGroup;
+			children = (
+				30A379132FF6A0F400F171B4 /* EventFormView.swift */,
+			);
+			path = EventForm;
+			sourceTree = "<group>";
+		};
+		30A379162FF6A0F400F171B4 /* EventList */ = {
+			isa = PBXGroup;
+			children = (
+				30A379152FF6A0F400F171B4 /* EventListView.swift */,
+			);
+			path = EventList;
+			sourceTree = "<group>";
+		};
+		30A379182FF6A0F400F171B4 /* EventRules */ = {
+			isa = PBXGroup;
+			children = (
+				30A379172FF6A0F400F171B4 /* EventRulesView.swift */,
+			);
+			path = EventRules;
+			sourceTree = "<group>";
+		};
+		30A3791A2FF6A0F400F171B4 /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				30A379192FF6A0F400F171B4 /* ExportView.swift */,
+			);
+			path = Export;
+			sourceTree = "<group>";
+		};
+		30A3791C2FF6A0F400F171B4 /* Hints */ = {
+			isa = PBXGroup;
+			children = (
+				30A3791B2FF6A0F400F171B4 /* HintsView.swift */,
+			);
+			path = Hints;
+			sourceTree = "<group>";
+		};
+		30A3791F2FF6A0F400F171B4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				30A3791D2FF6A0F400F171B4 /* HomeWidgets.swift */,
+				30A3791E2FF6A0F400F171B4 /* OrganizerDashboardView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		30A379212FF6A0F400F171B4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				30A3791F2FF6A0F400F171B4 /* Components */,
+				30A379202FF6A0F400F171B4 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		30A379232FF6A0F400F171B4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				30A379222FF6A0F400F171B4 /* OnboardingPageView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		30A379252FF6A0F400F171B4 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				30A379232FF6A0F400F171B4 /* Components */,
+				30A379242FF6A0F400F171B4 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		30A379272FF6A0F400F171B4 /* ParticipantForm */ = {
+			isa = PBXGroup;
+			children = (
+				30A379262FF6A0F400F171B4 /* ParticipantFormView.swift */,
+			);
+			path = ParticipantForm;
+			sourceTree = "<group>";
+		};
+		30A379292FF6A0F400F171B4 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				30A379282FF6A0F400F171B4 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		30A3792B2FF6A0F400F171B4 /* WishList */ = {
+			isa = PBXGroup;
+			children = (
+				30A3792A2FF6A0F400F171B4 /* WishListView.swift */,
+			);
+			path = WishList;
+			sourceTree = "<group>";
+		};
+		30A3792C2FF6A0F400F171B4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30A3790E2FF6A0F400F171B4 /* AssignmentResult */,
+				30A379122FF6A0F400F171B4 /* EventDetail */,
+				30A379142FF6A0F400F171B4 /* EventForm */,
+				30A379162FF6A0F400F171B4 /* EventList */,
+				30A379182FF6A0F400F171B4 /* EventRules */,
+				30A3791A2FF6A0F400F171B4 /* Export */,
+				30A3791C2FF6A0F400F171B4 /* Hints */,
+				30A379212FF6A0F400F171B4 /* Home */,
+				30A379252FF6A0F400F171B4 /* Onboarding */,
+				30A379272FF6A0F400F171B4 /* ParticipantForm */,
+				30A379292FF6A0F400F171B4 /* Settings */,
+				30A3792B2FF6A0F400F171B4 /* WishList */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		30A379382FF6A0F400F171B4 /* 193SecretSanta */ = {
+			isa = PBXGroup;
+			children = (
+				30A378E82FF6A0F400F171B4 /* Common */,
+				30A378EA2FF6A0F400F171B4 /* Coordinators */,
+				30A378F62FF6A0F400F171B4 /* Models */,
+				30A378FE2FF6A0F400F171B4 /* Services */,
+				30A378FF2FF6A0F400F171B4 /* Shared */,
+				30A3790C2FF6A0F400F171B4 /* ViewModels */,
+				30A3792C2FF6A0F400F171B4 /* Views */,
+				30A3792D2FF6A0F400F171B4 /* 193SecretSanta.entitlements */,
+				30A3792E2FF6A0F400F171B4 /* AppDelegate.swift */,
+				30A3792F2FF6A0F400F171B4 /* Assets.xcassets */,
+				30A379302FF6A0F400F171B4 /* ContentView.swift */,
+				30A379312FF6A0F400F171B4 /* Info.plist */,
+				30A379332FF6A0F400F171B4 /* LaunchScreen.storyboard */,
+				30A379352FF6A0F400F171B4 /* Main.storyboard */,
+				30A379362FF6A0F400F171B4 /* SceneDelegate.swift */,
+				30A379372FF6A0F400F171B4 /* ViewController.swift */,
+			);
+			path = 193SecretSanta;
+			sourceTree = "<group>";
+		};
+		39D6A4D170CEEB5A4222D9EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D931772EAA574691040CA5DD /* Pods-193SecretSanta.debug.xcconfig */,
+				C5694A3EBF10852A1ED5119F /* Pods-193SecretSanta.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +465,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3059640D2FEF16290073B16B /* Build configuration list for PBXNativeTarget "193SecretSanta" */;
 			buildPhases = (
+				22105081C41F5B2AD5764BDB /* [CP] Check Pods Manifest.lock */,
 				305963F62FEF16280073B16B /* Sources */,
 				305963F72FEF16280073B16B /* Frameworks */,
 				305963F82FEF16280073B16B /* Resources */,
@@ -73,12 +474,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				305963FC2FEF16280073B16B /* 193SecretSanta */,
-			);
 			name = 193SecretSanta;
-			packageProductDependencies = (
-			);
 			productName = 193SecretSanta;
 			productReference = 305963FA2FEF16280073B16B /* 193SecretSanta.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +495,7 @@
 				};
 			};
 			buildConfigurationList = 305963F52FEF16280073B16B /* Build configuration list for PBXProject "193SecretSanta" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +503,6 @@
 				Base,
 			);
 			mainGroup = 305963F12FEF16280073B16B;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 305963FB2FEF16280073B16B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,81 +517,208 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A379792FF6A0F400F171B4 /* Assets.xcassets in Resources */,
+				30A3797B2FF6A0F400F171B4 /* LaunchScreen.storyboard in Resources */,
+				30A3797C2FF6A0F400F171B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22105081C41F5B2AD5764BDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-193SecretSanta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		305963F62FEF16280073B16B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A379392FF6A0F400F171B4 /* CustomCells.swift in Sources */,
+				30A3793A2FF6A0F400F171B4 /* DesignSystem.swift in Sources */,
+				30A3793B2FF6A0F400F171B4 /* EmptyStateView.swift in Sources */,
+				30A3793C2FF6A0F400F171B4 /* GradientBackground.swift in Sources */,
+				30A3793D2FF6A0F400F171B4 /* RevealExperienceView.swift in Sources */,
+				30A3793E2FF6A0F400F171B4 /* ShareSheet.swift in Sources */,
+				30A3793F2FF6A0F400F171B4 /* StatusBadgeView.swift in Sources */,
+				30A379402FF6A0F400F171B4 /* VisualEffects.swift in Sources */,
+				30A379412FF6A0F400F171B4 /* Color+Theme.swift in Sources */,
+				30A379422FF6A0F400F171B4 /* Formatters.swift in Sources */,
+				30A379432FF6A0F400F171B4 /* View+Navigation.swift in Sources */,
+				30A379442FF6A0F400F171B4 /* AppLinks.swift in Sources */,
+				30A379452FF6A0F400F171B4 /* AppCoordinator.swift in Sources */,
+				30A379462FF6A0F400F171B4 /* AnonymousHint.swift in Sources */,
+				30A379472FF6A0F400F171B4 /* AssignmentRules.swift in Sources */,
+				30A379482FF6A0F400F171B4 /* Event.swift in Sources */,
+				30A379492FF6A0F400F171B4 /* EventStatus.swift in Sources */,
+				30A3794A2FF6A0F400F171B4 /* EventTransferPayload.swift in Sources */,
+				30A3794B2FF6A0F400F171B4 /* ExchangePreset.swift in Sources */,
+				30A3794C2FF6A0F400F171B4 /* GiftAssignment.swift in Sources */,
+				30A3794D2FF6A0F400F171B4 /* OnboardingPage.swift in Sources */,
+				30A3794E2FF6A0F400F171B4 /* Participant.swift in Sources */,
+				30A3794F2FF6A0F400F171B4 /* RevealSettings.swift in Sources */,
+				30A379502FF6A0F400F171B4 /* WishItem.swift in Sources */,
+				30A379512FF6A0F400F171B4 /* ExportService.swift in Sources */,
+				30A379522FF6A0F400F171B4 /* NotificationService.swift in Sources */,
+				30A379532FF6A0F400F171B4 /* OnboardingService.swift in Sources */,
+				30A379542FF6A0F400F171B4 /* PairHistoryService.swift in Sources */,
+				30A379552FF6A0F400F171B4 /* QRTransferService.swift in Sources */,
+				30A379562FF6A0F400F171B4 /* SecretSantaEngine.swift in Sources */,
+				30A379572FF6A0F400F171B4 /* StorageService.swift in Sources */,
+				30A379582FF6A0F400F171B4 /* AssignmentResultViewModel.swift in Sources */,
+				30A379592FF6A0F400F171B4 /* EventDetailViewModel.swift in Sources */,
+				30A3795A2FF6A0F400F171B4 /* EventFormViewModel.swift in Sources */,
+				30A3795B2FF6A0F400F171B4 /* EventListViewModel.swift in Sources */,
+				30A3795C2FF6A0F400F171B4 /* EventRulesViewModel.swift in Sources */,
+				30A3795D2FF6A0F400F171B4 /* ExportViewModel.swift in Sources */,
+				30A3795E2FF6A0F400F171B4 /* HintsViewModel.swift in Sources */,
+				30A3795F2FF6A0F400F171B4 /* HomeViewModel.swift in Sources */,
+				30A379602FF6A0F400F171B4 /* OnboardingViewModel.swift in Sources */,
+				30A379612FF6A0F400F171B4 /* ParticipantFormViewModel.swift in Sources */,
+				30A379622FF6A0F400F171B4 /* SettingsViewModel.swift in Sources */,
+				30A379632FF6A0F400F171B4 /* WishListViewModel.swift in Sources */,
+				30A379642FF6A0F400F171B4 /* AssignmentResultView.swift in Sources */,
+				30A379652FF6A0F400F171B4 /* AssignmentView.swift in Sources */,
+				30A379662FF6A0F400F171B4 /* EventDetailView.swift in Sources */,
+				30A379672FF6A0F400F171B4 /* ParticipantListView.swift in Sources */,
+				30A379682FF6A0F400F171B4 /* EventFormView.swift in Sources */,
+				30A379692FF6A0F400F171B4 /* EventListView.swift in Sources */,
+				30A3796A2FF6A0F400F171B4 /* EventRulesView.swift in Sources */,
+				30A3796B2FF6A0F400F171B4 /* ExportView.swift in Sources */,
+				30A3796C2FF6A0F400F171B4 /* HintsView.swift in Sources */,
+				30A3796D2FF6A0F400F171B4 /* HomeWidgets.swift in Sources */,
+				30A3796E2FF6A0F400F171B4 /* OrganizerDashboardView.swift in Sources */,
+				30A3796F2FF6A0F400F171B4 /* HomeView.swift in Sources */,
+				30A379702FF6A0F400F171B4 /* OnboardingPageView.swift in Sources */,
+				30A379712FF6A0F400F171B4 /* OnboardingView.swift in Sources */,
+				30A379722FF6A0F400F171B4 /* ParticipantFormView.swift in Sources */,
+				30A379732FF6A0F400F171B4 /* SettingsView.swift in Sources */,
+				30A379742FF6A0F400F171B4 /* WishListView.swift in Sources */,
+				30A379752FF6A0F400F171B4 /* AppDelegate.swift in Sources */,
+				30A379762FF6A0F400F171B4 /* ContentView.swift in Sources */,
+				30A379772FF6A0F400F171B4 /* SceneDelegate.swift in Sources */,
+				30A379782FF6A0F400F171B4 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		30A379332FF6A0F400F171B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30A379322FF6A0F400F171B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		30A379352FF6A0F400F171B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30A379342FF6A0F400F171B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		3059640E2FEF16290073B16B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D931772EAA574691040CA5DD /* Pods-193SecretSanta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 193SecretSanta/193SecretSanta.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 193SecretSanta/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Gossamyr Obfusqua";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-93SecretSanta";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mar.g0ss4m6r0bf8sq48;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3059640F2FEF16290073B16B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5694A3EBF10852A1ED5119F /* Pods-193SecretSanta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 193SecretSanta/193SecretSanta.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 193SecretSanta/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Gossamyr Obfusqua";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-93SecretSanta";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mar.g0ss4m6r0bf8sq48;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
