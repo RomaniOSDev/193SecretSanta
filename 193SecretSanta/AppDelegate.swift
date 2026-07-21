@@ -7,15 +7,9 @@
 
 import UIKit
 import UserNotifications
-#if canImport(AppsFlyerLib)
 import AppsFlyerLib
-#endif
-#if canImport(FirebaseCore)
 import FirebaseCore
-#endif
-#if canImport(FirebaseMessaging)
 import FirebaseMessaging
-#endif
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
@@ -29,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
 
     private func configureAppsFlyer() {
         #if canImport(AppsFlyerLib)
-        AppsFlyerLib.shared().appsFlyerDevKey = "cqTiFvvyhL5a2SNAqqAna3"
+        AppsFlyerLib.shared().appsFlyerDevKey = "Xpot5ZNgdk6XZr8CFUqRER"
         AppsFlyerLib.shared().appleAppID = "6786362758"
         AppsFlyerLib.shared().delegate = self
         AppsFlyerLib.shared().deepLinkDelegate = self

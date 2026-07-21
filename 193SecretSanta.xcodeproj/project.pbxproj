@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -87,6 +87,8 @@
 		3074E842300F7539008E6369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3074E7EB300F7539008E6369 /* Assets.xcassets */; };
 		3074E844300F7539008E6369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3074E7EF300F7539008E6369 /* LaunchScreen.storyboard */; };
 		3074E845300F7539008E6369 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3074E7F1300F7539008E6369 /* Main.storyboard */; };
+		3074E847300F86BF008E6369 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3074E846300F86BF008E6369 /* GoogleService-Info.plist */; };
+		3074E84C300F8875008E6369 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3074E849300F8875008E6369 /* NotificationService.swift */; };
 		A10000013000000100000001 /* NotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A10000023000000200000002 /* NotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B20000900000000000000090 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = B20000800000000000000080 /* FirebaseMessaging */; };
 		B20000910000000000000091 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = B20000810000000000000081 /* AppsFlyerLib-Static */; };
@@ -201,25 +203,14 @@
 		3074E7F0300F7539008E6369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3074E7F2300F7539008E6369 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3074E7F3300F7539008E6369 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3074E846300F86BF008E6369 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3074E848300F8875008E6369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3074E849300F8875008E6369 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		469FB4676FB75A75CCD7AD53 /* Pods_193SecretSanta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_193SecretSanta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10000023000000200000002 /* NotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5694A3EBF10852A1ED5119F /* Pods-193SecretSanta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-193SecretSanta.release.xcconfig"; path = "Target Support Files/Pods-193SecretSanta/Pods-193SecretSanta.release.xcconfig"; sourceTree = "<group>"; };
 		D931772EAA574691040CA5DD /* Pods-193SecretSanta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-193SecretSanta.debug.xcconfig"; path = "Target Support Files/Pods-193SecretSanta/Pods-193SecretSanta.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		A10000063000000600000006 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = A10000043000000400000004 /* NotificationServiceExtension */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		A10000073000000700000007 /* NotificationServiceExtension */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (A10000063000000600000006 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = NotificationServiceExtension; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		305963F72FEF16280073B16B /* Frameworks */ = {
@@ -254,7 +245,7 @@
 			isa = PBXGroup;
 			children = (
 				3074E7F4300F7539008E6369 /* 193SecretSanta */,
-				A10000073000000700000007 /* NotificationServiceExtension */,
+				3074E84A300F8875008E6369 /* NotificationServiceExtension */,
 				305963FB2FEF16280073B16B /* Products */,
 				39D6A4D170CEEB5A4222D9EB /* Pods */,
 				0B8D8CBA301C51AB2A57C4B0 /* Frameworks */,
@@ -547,8 +538,18 @@
 				3074E7F1300F7539008E6369 /* Main.storyboard */,
 				3074E7F2300F7539008E6369 /* SceneDelegate.swift */,
 				3074E7F3300F7539008E6369 /* ViewController.swift */,
+				3074E846300F86BF008E6369 /* GoogleService-Info.plist */,
 			);
 			path = 193SecretSanta;
+			sourceTree = "<group>";
+		};
+		3074E84A300F8875008E6369 /* NotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				3074E848300F8875008E6369 /* Info.plist */,
+				3074E849300F8875008E6369 /* NotificationService.swift */,
+			);
+			path = NotificationServiceExtension;
 			sourceTree = "<group>";
 		};
 		39D6A4D170CEEB5A4222D9EB /* Pods */ = {
@@ -598,9 +599,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				A10000073000000700000007 /* NotificationServiceExtension */,
 			);
 			name = NotificationServiceExtension;
 			packageProductDependencies = (
@@ -657,6 +655,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3074E842300F7539008E6369 /* Assets.xcassets in Resources */,
+				3074E847300F86BF008E6369 /* GoogleService-Info.plist in Resources */,
 				3074E844300F7539008E6369 /* LaunchScreen.storyboard in Resources */,
 				3074E845300F7539008E6369 /* Main.storyboard in Resources */,
 			);
@@ -785,6 +784,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3074E84C300F8875008E6369 /* NotificationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
