@@ -23,6 +23,7 @@ extension Color {
 
     static let appBackground = Color("BackgroundPrimary")
     static let appSurface = Color("SurfaceCard")
+    static let appPrimary = Color("AccentPrimary")
     static let appAccent = Color("AccentPrimary")
     static let appAccentSecondary = Color("AccentSecondary")
     static let appTextPrimary = Color("TextPrimary")
